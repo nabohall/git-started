@@ -1,0 +1,40 @@
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 18px;
+}
+img {
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+h1 {
+	font-family: 'Monotype Corsiva', 'Freestyle Script', cursive;
+	font-size: 100px;
+	font-style: italic;
+	-webkit-animation:mymove 3s 1;
+	text-align: center;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+
+body{
+	background-color: #f8c5eb;
+}
+
+.border {
+	background-image: url("../img/malory_border.jpeg");
+	height: 100px;
+}
+
+@-webkit-keyframes mymove {
+    from {opacity: 1}
+    to {opacity: 1}
+}
+
+@keyframes mymove {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
